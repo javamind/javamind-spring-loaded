@@ -60,6 +60,7 @@
                         <artifactId>spring-boot-maven-plugin</artifactId>
                         <configuration>
                             <agent>${settings.localRepository}/org/springframework/springloaded/${spring.loaded.version}/springloaded-${spring.loaded.version}.jar</agent>
+                            <jvmArguments>-noverify</jvmArguments>
                         </configuration>
                     </plugin>
                 </plugins>

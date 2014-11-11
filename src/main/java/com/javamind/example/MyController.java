@@ -14,6 +14,6 @@ public class MyController {
     @RequestMapping("/hello/{name}")
     public String listEnv(@PathVariable String name) {
 
-        return "Hello man " + name;
+        return "Hello " + name;
     }
 }
